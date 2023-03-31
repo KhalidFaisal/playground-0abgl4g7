@@ -1,19 +1,24 @@
-#!/usr/bin/env python3
+# This is a simple Python code to get you started with your projects
 
-"""
-Short description of your project goes here.
-"""
+# Import any necessary libraries here
+import random
 
-# Import any necessary libraries here.
+# Define any functions or classes here
+class MyClass:
+    def __init__(self, name):
+        self.name = name
+    
+    def greet(self):
+        print(f"Hello, {self.name}!")
 
-# Define any constants or variables here.
-
-# Define any necessary functions here.
-
-# Define the main function here.
+# Write the main code here
 def main():
-    pass
+    # Example usage of the MyClass class
+    obj = MyClass("John")
+    obj.greet()
 
-# Call the main function here.
+    # Example usage of the random module
+    print(random.randint(1, 10))
+
 if __name__ == "__main__":
     main()
