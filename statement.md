@@ -4,13 +4,14 @@
 import random
 
 # Define any functions or classes here
+``
 class MyClass:
     def __init__(self, name):
         self.name = name
     
     def greet(self):
         print(f"Hello, {self.name}!")
-
+``
 # Write the main code here
 def main():
     # Example usage of the MyClass class
