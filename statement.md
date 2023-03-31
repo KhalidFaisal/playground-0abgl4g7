@@ -1,16 +1,19 @@
-Here's a simple Python template that you can use as a starting point for your Python projects:
+#!/usr/bin/env python3
 
-# Import necessary modules here
-# For example:
-# import math
+"""
+Short description of your project goes here.
+"""
 
+# Import any necessary libraries here.
+
+# Define any constants or variables here.
+
+# Define any necessary functions here.
+
+# Define the main function here.
 def main():
-    # Write your main code here
-    # For example:
-    # print("Hello, World!")
     pass
 
+# Call the main function here.
 if __name__ == "__main__":
     main()
-
-To use this template, you can replace the comments with your own code. The main() function is where you can write the main logic of your program, and the if __name__ == "__main__": block is where you can call the main() function to execute your program.
